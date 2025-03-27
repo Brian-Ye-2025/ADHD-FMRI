@@ -1,5 +1,46 @@
 ## Introduction
 In this section, we will show you how to use our functions to find locate brain regions and check nifti file attributes
 
-## Data 
-The data we will use in the examples 
+### Data 
+The data we will use in the examples be the `rest.nii` file from patient 10020,  which is a rs-fMRI dataset for a control subject from the ADHD-200 Preprocessed sample from the International Neuroimaging Datasharing Initiative (INDI)
+http://preprocessed-connectomes-project.org/adhd200/index.html
+
+### Functions
+Here, we will use two functions, `plot_brain_regions` and `inspect_nifti_file`.
+
+`plot_brain_regions` is a function to plot the locations of different regions of the brain
+
+`inspect_nifti_file` is a function to find the shape, voxel size and affine matrix of a nifti file.
+
+Below are all the arguments in `plot_brain_regions`
+
+```python
+plot_brain_regions(regions_names: list)
+```
+
+Below are all the arguments in `inspect_nifti_file`
+```python
+inspect_nifti_file(nifti_path)
+```
+
+### Application
+
+We will first show `plot_brain_regions` apply the aal_labels file, containing the region names that will be searched in the function 
+
+```python
+plot_brain_regions(["Precentral_L", "Precentral_R", "Frontal_Sup_R"])
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
