@@ -35,7 +35,7 @@ We will first show `plot_brain_regions` apply the aal_labels file, containing th
 ```python
 plot_brain_regions(["Precentral_L", "Precentral_R", "Frontal_Sup_R"])
 ```
-
+![Image](https://github.com/user-attachments/assets/89b7a495-f23c-437b-b7cd-25c56f61f205)
 
 
 
