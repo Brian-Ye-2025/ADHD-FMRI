@@ -1,10 +1,6 @@
-import nilearn.datasets
-import nilearn.plotting
 import nilearn.image
 import pandas as pd
 import nibabel as nib
-import matplotlib.pyplot as plt
-import matplotlib.backend_bases
 
 
 def inspect_nifti_file(nifti_path):
