@@ -61,7 +61,7 @@ For `masked_glass_plot` input the 4D image file path and choose a desired time i
 ```python
 masked_glass_plot(file_path, 0)
 ```
-
+![Image](https://github.com/user-attachments/assets/8d545196-4071-47dc-bbc0-84b00e63e3fb)
 
 
 
