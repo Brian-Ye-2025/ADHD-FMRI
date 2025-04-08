@@ -1,6 +1,7 @@
 # ADHD-FMRI
 ## Introduction
-Data used is from the ADHD-200 Preprocessed initiative and contains neuroimaging data of 362 children and adolescents with ADHD and 585 control subjects. 
+Data used is from the ADHD-200 Preprocessed initiative and contains neuroimaging data of 362 children and adolescents with ADHD and 585 control subjects. Functions are focused on exploring fMRI data from the ADHD-200 Sample. Data used in examples is at rest data (rest.nii )from patient 0010020
+
 http://preprocessed-connectomes-project.org/adhd200/index.html
 
 ## Functions
