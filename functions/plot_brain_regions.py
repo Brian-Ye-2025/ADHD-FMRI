@@ -1,3 +1,12 @@
+import nilearn.datasets
+import nilearn.plotting
+import nilearn.image
+import pandas as pd
+import nibabel as nib
+import matplotlib.pyplot as plt
+import matplotlib.backend_bases
+
+
 def plot_brain_regions(region_names: list, aal_list_path):
     # Load the AAL atlas
     aal = nilearn.datasets.fetch_atlas_aal(version='SPM12')
