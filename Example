@@ -12,8 +12,9 @@ Here, we will use two functions, `plot_brain_regions` and `inspect_nifti_file`.
 
 `inspect_nifti_file` is a function to find the shape, voxel size and affine matrix of a nifti file.
 
-Below are all the arguments in `plot_brain_regions`
+`masked_glass_plot` is a function that converts from 4D to 3D and plots a glass brain plot using masked data
 
+Below are all the arguments in `plot_brain_regions`
 ```python
 plot_brain_regions(regions_names: list)
 ```
@@ -21,6 +22,10 @@ plot_brain_regions(regions_names: list)
 Below are all the arguments in `inspect_nifti_file`
 ```python
 inspect_nifti_file(nifti_path)
+```
+Below are the arguments in `masked_glass_plot`
+```python
+masked_glass_plot(file_path, volume_index=0)
 ```
 
 ### Application
