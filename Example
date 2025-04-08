@@ -1,5 +1,5 @@
 ## Introduction
-In this section, we will show you how to use our functions to find locate brain regions and check nifti file attributes
+In this section, we will show you how to use our functions to locate brain regions, check nifti file attributes, convert nift files from 4D to 3D and apply masks and generate glass brain plots
 
 ### Data 
 The data we will use in the examples be the `rest.nii` file from patient 10020,  which is a rs-fMRI dataset for a control subject from the ADHD-200 Preprocessed sample from the International Neuroimaging Datasharing Initiative (INDI)
